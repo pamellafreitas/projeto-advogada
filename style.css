@@ -1,0 +1,277 @@
+.navbar {
+    background-color: #344c5b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 2rem; 
+}
+
+.logo{
+    width: 4rem;
+}
+
+.home {
+    margin-top: 2rem;
+    background: url('img/isabela-advogada.jpg') top/cover no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-home {
+    margin-top: 12rem;
+    animation: fadeIn ease-in 1s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.home p {
+    width: 50%;
+    color:#f0efee;
+    opacity: 0.8;
+}
+
+h1 {
+    font: 3.5rem "Times New Roman", Times, serif;
+    color: #f0efee;
+}
+
+h3 {
+    font: 2.5rem "Times New Roman", Times, serif;
+    color: #f0efee;
+    opacity: 0.;
+}
+
+.btn {
+    background-color: #18577bee;
+    color: #f0efeedf;
+}
+
+.btn:hover {
+    background-color: #0e7cbb;
+    color: #f0efee;
+}
+
+/* Sobre */
+
+.sobre img {
+    width: 25rem;
+}
+
+.sobre {
+    padding-block: 5rem;
+
+}
+
+.sobre h2 {
+    font: 2.5rem "Times New Roman", Times, serif;
+    padding-bottom: 1rem;
+}
+
+/* Serviços */
+.serviços {
+    background-color: #0a1013;
+    padding-top: 1rem;
+}
+
+.serviços h2 {
+    font: 2.5rem "Times New Roman", Times, serif;
+    padding-bottom: 1rem;
+    color: #f0efee;
+}
+
+.card {
+    margin-bottom: 4rem;
+    border: 2px solid #3f8ab9;
+    transition: all 0.1s ease; 
+
+}
+
+.card:hover {
+    border: 3.5px solid #3f8ab9;
+    transition: 0.1s;
+    transform: translateY(-5px);
+}
+
+.card h5{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+/* Depoimentos */
+.depoimentos {
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+}
+
+.depoimentos h2 {
+    font: 2.5rem "Times New Roman", Times, serif;
+}
+
+.depoimentos img {
+    border-radius: 15rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.blockquote-div {
+    padding-top: 1rem;
+}
+
+
+/* Animation */
+.hide {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+    transition: all 1s;
+}
+
+.serviços :nth-child(2){
+    transition-delay: 400ms;
+}
+
+.serviços :nth-child(3){
+    transition-delay: 700ms;
+}
+
+
+/* Contato */
+
+.contato{
+    background-color: #0a1013;
+    padding-block: 4rem;
+    color: #f0efee;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.contato h2 {
+    font-weight: bold;
+    font: 2.5rem "Times New Roman", Times, serif;
+}
+
+.informacoes h3{
+    font: 2rem "Times New Roman", Times, serif;
+}
+
+.informacoes p {
+    opacity: 0.7;
+}
+
+.informacoes span {
+    color: #0e7cbb;
+}
+
+svg:hover path {
+    fill: #0e7cbb; 
+    transition: fill 0.3s; 
+}
+
+/* faq */
+
+.faq{
+    
+    padding-block: 2rem;
+}
+
+.faq h2 {
+    font: 2.5rem "Times New Roman", Times, serif;
+    padding-bottom: 2rem;
+    color: #0a1013;
+}
+
+.faq .card {
+    border: 1px solid #00000029;
+    border-bottom: 2px solid #00000029 !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #0a1013;
+    color: #f0efee;
+    padding-bottom: 0;
+    height: 65px;
+}
+
+.footer p {
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .sobre h2 {
+        padding-top: 2.5rem;
+    }
+
+    .sobre {
+        padding-block: 3rem;
+    }
+
+    .home {
+        height: 400px;
+    }
+    
+    .content-home {
+        margin-top: 5rem;
+        animation: fadeIn ease-in 1s forwards;
+    }
+
+    .home h1 {
+        font: 2.5rem "Times New Roman", Times, serif;
+        color: #f0efee;
+    }
+    
+    .home h3 {
+        font: 2rem "Times New Roman", Times, serif;
+        color: #f0efee;
+        opacity: 0.;
+    }
+
+
+    .home p {
+        width: 80%;
+        color:#f0efee;
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (max-width: 786px) {
+
+    .contato h2 {
+        padding-top: 2rem;
+    }
+
+    .redes-sociais {
+    padding-top: 1rem;
+    }
+
+    .blockquote {
+        padding-top: 2rem;
+    }
+}
+
