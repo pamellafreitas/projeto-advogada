@@ -4,10 +4,26 @@
   top: 0;
   width: 100%;
   z-index: 1000;
+  padding: 0;
 }
 
 .navbar-nav .nav-item {
   margin-right: 2rem;
+}
+
+.nav-logo-and-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+#navbarNav {
+  padding: 0.5rem 1rem;
+}
+
+.nav-container {
+  margin: 0 auto;
 }
 
 .logo {

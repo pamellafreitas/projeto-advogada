@@ -20,7 +20,7 @@ function scrollToSection(event) {
   event.preventDefault();
   const href = event.currentTarget.getAttribute('href');
   const section = document.querySelector(href);
-  const nav = document.querySelector('nav');
+  const nav = document.querySelector('.nav-logo-and-btn');
 
   const sectionTopPosition = section.getBoundingClientRect().top;
   const navHeight = nav.getBoundingClientRect().height;
