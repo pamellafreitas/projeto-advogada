@@ -47,7 +47,7 @@
 }
 
 .content-home {
-  margin-top: 12rem;
+  margin-top: 9rem;
   animation: fadeIn ease-in 1s forwards;
 }
 
@@ -62,6 +62,7 @@
 
 .home p {
   width: 50%;
+  font-size: 1.5rem;
   color: #f0efee;
   opacity: 0.8;
 }
@@ -241,6 +242,11 @@ svg:hover path {
   padding-top: 8rem;
 }
 
+.btn {
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+}
+
 @media screen and (max-width: 800px) {
   .sobre h2 {
     padding-top: 2.5rem;
@@ -255,7 +261,7 @@ svg:hover path {
   }
 
   .content-home {
-    margin-top: 5rem;
+    margin-top: -3rem;
     animation: fadeIn ease-in 1s forwards;
   }
 
@@ -271,7 +277,7 @@ svg:hover path {
   }
 
   .home p {
-    width: 80%;
+    width: 70%;
     color: #f0efee;
     opacity: 0.8;
   }
@@ -288,5 +294,13 @@ svg:hover path {
 
   .blockquote {
     padding-top: 2rem;
+  }
+
+  .content-home {
+    margin-top: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
   }
 }
